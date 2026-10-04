@@ -147,3 +147,7 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Extension packages and browser automation artifacts
+banked-reset-expires-at.zip
+.playwright-cli/

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Banked Reset Expires At",
+  "version": "0.1.0",
+  "description": "Always show the expiry time of banked usage limit resets on ChatGPT.",
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+[data-bre-time]::after {
+  content: " · " attr(data-bre-time);
+}

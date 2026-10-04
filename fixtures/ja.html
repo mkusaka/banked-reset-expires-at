@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Banked Reset Expires At — ja fixture</title>
+    <link rel="stylesheet" href="/content.css" />
+    <link rel="stylesheet" href="./fixture.css" />
+    <script type="module" src="../src/content.ts"></script>
+    <script type="module" src="./controls.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Banked Reset Expires At</h1>
+      <p>DOM fixture · Japanese · October 2026</p>
+      <nav aria-label="Fixture controls">
+        <button type="button" data-action="replace">Replace row</button>
+        <button type="button" data-action="rerender">Re-render rows</button>
+        <button type="button" data-action="theme">Light / dark</button>
+      </nav>
+      <section class="flex flex-col">
+        <h2>利用上限のリセット</h2>
+        <div class="font-normal text-secondary …">
+          リセットを使うと、5時間あたりの利用枠、1週間あたりの利用枠、またはその両方を回復できます。
+        </div>
+        <div
+          role="tablist"
+          tabindex="-1"
+          aria-label="利用上限のリセット"
+          class="flex min-w-0 items-center gap-0.5"
+        >
+          <div class="relative flex min-w-0 items-center shrink-0">
+            <button
+              id="_r_1h2_-available-tab"
+              type="button"
+              role="tab"
+              aria-controls="_r_1h2_-available"
+              aria-selected="true"
+              tabindex="0"
+              class="…"
+            >
+              <span class="inline-flex items-center gap-1.5"
+                >利用可能 <span class="font-normal text-secondary">3</span></span
+              >
+            </button>
+          </div>
+          <div class="relative flex min-w-0 items-center shrink-0">
+            <button
+              id="_r_1h2_-history-tab"
+              type="button"
+              role="tab"
+              aria-controls="_r_1h2_-history"
+              aria-selected="false"
+              tabindex="-1"
+              class="…"
+            >
+              履歴
+            </button>
+          </div>
+        </div>
+        <div
+          id="_r_1h2_-available"
+          class="flex flex-col …"
+          role="tabpanel"
+          aria-labelledby="_r_1h2_-available-tab"
+          tabindex="0"
+        >
+          <div class="@container/settings-row px-4 items-center flex justify-between gap-6 py-3">
+            <div class="flex min-w-0 flex-1 flex-col gap-0.5">
+              <div class="min-w-0 break-words text-default … text-sm font-medium">
+                <span id="_r_1ib_">完全リセット</span>
+              </div>
+              <div class="min-w-0 text-xs leading-4 text-wrap break-words text-secondary">
+                <span
+                  id="_r_1ic_"
+                  aria-label="有効期限: 10/5 13:19 JST"
+                  title="有効期限: 10/5 13:19 JST"
+                  >有効期限：10月5日</span
+                >
+              </div>
+            </div>
+            <button
+              type="button"
+              class="…"
+              aria-describedby="_r_1ic_"
+              aria-labelledby="_r_1ia_ _r_1ib_"
+            >
+              <span id="_r_1ia_">リセットを使用</span>
+            </button>
+          </div>
+          <div class="@container/settings-row px-4 items-center flex justify-between gap-6 py-3">
+            <div class="flex min-w-0 flex-1 flex-col gap-0.5">
+              <div class="min-w-0 break-words text-default … text-sm font-medium">
+                <span id="_r_1if_">完全リセット</span>
+              </div>
+              <div class="min-w-0 text-xs leading-4 text-wrap break-words text-secondary">
+                <span id="_r_1ig_" title="有効期限: 10/23 5:41 JST">有効期限：10月23日</span>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="no-drag … button-toolbar py-0 text-sm leading-[18px]"
+              aria-describedby="_r_1ig_"
+              aria-labelledby="_r_1ig_-use _r_1if_"
+            >
+              <span id="_r_1ig_-use">リセットを使用</span>
+            </button>
+          </div>
+          <div class="@container/settings-row px-4 items-center flex justify-between gap-6 py-3">
+            <div class="flex min-w-0 flex-1 flex-col gap-0.5">
+              <div class="min-w-0 break-words text-default … text-sm font-medium">
+                <span id="_r_1ij_">完全リセット</span>
+              </div>
+              <div class="min-w-0 text-xs leading-4 text-wrap break-words text-secondary">
+                <span id="_r_1ik_" title="有効期限: 10/30 3:58 JST">有効期限：10月30日</span>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="no-drag … button-toolbar py-0 text-sm leading-[18px]"
+              aria-describedby="_r_1ik_"
+              aria-labelledby="_r_1ik_-use _r_1ij_"
+            >
+              <span id="_r_1ik_-use">リセットを使用</span>
+            </button>
+          </div>
+        </div>
+        <div id="_r_1h2_-history" role="tabpanel" aria-labelledby="_r_1h2_-history-tab" hidden>
+          <p>History structure is unknown; no rows are fabricated.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
