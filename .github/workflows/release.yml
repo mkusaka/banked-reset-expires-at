@@ -1,4 +1,7 @@
 name: Release Chrome Extension
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: false
 permissions: {}
 on:
   push:
